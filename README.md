@@ -1,5 +1,5 @@
 # ag-grid-typed-editor
-Quick implementation of definitively typed input editor for [ag-Grid](https://github.com/ag-grid/ag-grid).
+Quick implementation of typed html input editor for [ag-Grid](https://github.com/ag-grid/ag-grid).
 
 ## Install
 ```bash
@@ -8,9 +8,6 @@ npm install --save ag-grid-typed-editor
 
 ## Description
 The goal of this package is to provide an easy way to have html typed input for agGrid editors.
-
-## [Demo](https://stackblitz.com/edit/ag-grid-typed-editor)
-![aAwS0747n5](https://user-images.githubusercontent.com/8771783/54754946-0bdae680-4be5-11e9-9a49-b2b56d0d762c.gif)
 
 ## Usage
 This package provide a new cellEditor named: `InputParameterizedCellEditor`.
@@ -24,13 +21,11 @@ You can configure and customize the cell and behavior with the following `cellEd
         - 'text'
         - 'date'
         - 'datetime-local'
-        - 'email'
-        - 'checkbox'
-        - 'password'
+        - 'month'
+        - 'color'
         - 'range'
-        - 'tel'
+        - 'week'
         - 'time'
-        - 'url'
     - `attrs`: (`object`) All the attrs who are valid for the targeted html type.
  
 ## Example

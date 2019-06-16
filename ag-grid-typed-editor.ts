@@ -5,13 +5,11 @@ export type InputType =
     | 'text'
     | 'date'
     | 'datetime-local'
-    | 'email'
-    | 'checkbox'
-    | 'password'
+    | 'month'
+    | 'color'
     | 'range'
-    | 'tel'
-    | 'time'
-    | 'url';
+    | 'week'
+    | 'time';
 
 export interface IHtmlAttr {
     type?: InputType,

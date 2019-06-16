@@ -1,7 +1,7 @@
 {
   "name": "ag-grid-typed-editor",
   "version": "1.0.0",
-  "description": "Quick implementation of definitively typed input editor for AgGrid.",
+  "description": "Quick implementation of typed html input for AgGrid.",
   "deprecated": false,
   "main": "ag-grid-typed-editor.js",
   "repository": {

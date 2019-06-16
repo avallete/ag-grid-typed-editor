@@ -1,5 +1,5 @@
 import { Component, ICellEditorComp, ICellEditorParams } from 'ag-grid-community';
-export declare type InputType = 'number' | 'text' | 'date' | 'datetime-local' | 'email' | 'checkbox' | 'password' | 'range' | 'tel' | 'time' | 'url';
+export declare type InputType = 'number' | 'text' | 'date' | 'datetime-local' | 'month' | 'color' | 'range' | 'week' | 'time';
 export interface IHtmlAttr {
     type?: InputType;
     attrs?: object;
