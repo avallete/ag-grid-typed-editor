@@ -27,6 +27,9 @@ You can configure and customize the cell and behavior with the following `cellEd
         - 'week'
         - 'time'
     - `attrs`: (`object`) All the attrs who are valid for the targeted html type.
+
+## [Demo](https://stackblitz.com/edit/ag-grid-typed-editor)
+![ag-grid-typed-editor-demo](https://user-images.githubusercontent.com/8771783/59564931-0b6bb380-904d-11e9-8ccf-330907b58fab.gif)
  
 ## Example
  
