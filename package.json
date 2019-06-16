@@ -1,0 +1,68 @@
+{
+  "name": "ag-grid-typed-editor",
+  "version": "1.0.0",
+  "description": "Quick implementation of definitively typed input editor for AgGrid.",
+  "deprecated": false,
+  "main": "ag-grid-typed-editor.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avallete/ag-grid-typed-editor.git"
+  },
+  "scripts": {
+    "test": "exit 0",
+    "start": "webpack-dev-server --config config/webpack.dev.js --inline --progress --port 8080",
+    "build": "webpack --config config/webpack.prod.js --progress --profile --bail --allow-js"
+  },
+  "author": "Andrew Valleteau",
+  "license": "MIT",
+  "keywords": [
+    "number",
+    "text",
+    "date",
+    "datetime-local",
+    "email",
+    "checkbox",
+    "password",
+    "range",
+    "tel",
+    "time",
+    "url",
+    "typed",
+    "lightweight",
+    "javascript",
+    "vanilla",
+    "vanilla-js",
+    "input",
+    "ui",
+    "form",
+    "component",
+    "tiny",
+    "small",
+    "typescript",
+    "widget",
+    "category",
+    "ag-grid",
+    "ag-grid-typed",
+    "ag-grid-typed-editor"
+  ],
+  "dependencies": {
+    "ag-grid-community": "^20.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^11.13.14",
+    "autoprefixer": "^9.6.0",
+    "css-loader": "^2.1.1",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.12.0",
+    "postcss-loader": "^3.0.0",
+    "postcss-scss": "^2.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^5.4.5",
+    "typescript": "^3.5.2",
+    "webpack": "^4.34.0",
+    "webpack-cli": "^3.3.4",
+    "webpack-dev-server": "^3.7.1"
+  },
+  "types": "./ag-grid-typed-editor.d.ts"
+}
