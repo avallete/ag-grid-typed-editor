@@ -1,5 +1,5 @@
 # ag-grid-typed-editor
-Quick implementation of definitively typed input editor for [ag-Grid](https://github.com/ag-grid/ag-grid).
+Quick implementation of typed html input editor for [ag-Grid](https://github.com/ag-grid/ag-grid).
 
 ## Install
 ```bash
